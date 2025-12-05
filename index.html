@@ -14,27 +14,24 @@
         body {
             font-family: Arial, sans-serif;
             background: linear-gradient(135deg, #182836 0%, #0486CC 100%);
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 20px;
+            padding: 10px;
         }
 
         .carousel-container {
-            max-width: 800px;
+            max-width: 100%;
             width: 100%;
             position: relative;
             background: white;
             border-radius: 15px;
             box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
             overflow: hidden;
+            margin: 0 auto;
         }
 
         .carousel-wrapper {
             position: relative;
             width: 100%;
-            padding-top: 56.25%; /* 16:9 aspect ratio */
+            padding-top: 51.5%; /* Matches 1600x825 image aspect ratio */
             overflow: hidden;
         }
 
@@ -117,7 +114,7 @@
             display: flex;
             justify-content: center;
             gap: 10px;
-            padding: 20px;
+            padding: 10px 20px;
             background: white;
         }
 
@@ -173,9 +170,9 @@
                     <img src="Hibbing_1600_3-2.png" alt="Image 3">
                     <!-- Replace with: <img src="your-image-3.jpg" alt="Image 3"> -->
                 </div>
-                <div class="carousel-slide slide-3">
+                <div class="carousel-slide slide-4">
                     <img src="Hibbing_1600_4.png" alt="Image 4">
-                    <!-- Replace with: <img src="your-image-3.jpg" alt="Image 4"> -->
+                    <!-- Replace with: <img src="your-image-4.jpg" alt="Image 4"> -->
                 </div>
             </div>
             <button class="carousel-button prev" onclick="moveSlide(-1)">‹</button>
